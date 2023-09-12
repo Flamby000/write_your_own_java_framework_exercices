@@ -12,5 +12,16 @@
         <module name="injector" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="20" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="--enable-preview" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="injector" options="" />
+      <module name="interceptor" options="" />
+      <module name="java-framework" options="" />
+      <module name="mapper" options="" />
+      <module name="orm" options="" />
+    </option>
   </component>
 </project>
