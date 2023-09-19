@@ -29,7 +29,7 @@ There are more or less two different kind of API to intercept a method call.
   ```
   with `Invocation` a functional interface corresponding to the next interceptor i.e. an interface
   with an abstract method bound to a specific interceptor (partially applied if you prefer).
-  ``java
+  ```java
   @FunctionalInterface
   public interface Invocation {
     Object proceed(Object instance, Method method, Object[] args) throws Throwable;
